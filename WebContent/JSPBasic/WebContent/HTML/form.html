@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<!-- form 태그는 사용자가 입력한 값을 그대로 받아서 서버에 전송할때 사용합니다 -->
+	
+	<form>
+		<h4>회원가입 양식</h4>
+		아이디:<input type="text" size="10" placeholder="8글자"><br/>
+		비밀번호:<input type="password" size="10"><br/>
+		이메일:<input type="email" size="10"><br/><!-- 이메일 형식을 갖도록 지원 -->
+		
+		관심분야:
+		<input type="checkbox" name="inter">JAVA
+		<input type="checkbox" name="inter">JSP
+		<input type="checkbox" name="inter">JS
+		<input type="checkbox" name="inter">CSS
+		<input type="checkbox" name="inter">DB
+		<br/>
+		
+		전공:
+		<input type = "radio" name="major">경영학
+		<input type = "radio" name="major">전산학
+		<input type = "radio" name="major">수학
+		<input type = "radio" name="major">컴퓨터공학
+		<input type = "radio" name="major">기계공학
+		<br/>
+		지역:
+		<select>
+			<option>서울</option>
+			<option>경기도</option>
+			<option>부산</option>
+			<option>제주도</option>
+		</select>
+		<br/>
+		
+		자기소개:<br/>
+		<textarea rows="5" cols="50"></textarea>
+		
+		<br/>
+		<input type="submit" value="가입하기">
+		<input type="reset" value="초기화">
+		<input type="button" value="목록">
+		
+	</form>
+</body>
+</html>
